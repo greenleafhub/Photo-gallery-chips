@@ -12,9 +12,8 @@
   }
 
   .lightbox img {
-    margin: 2rem;
+    margin: auto 2rem auto 2rem;
     width: 100%;
-    grid-column-start: 1;    
     border-radius: 0.75rem;
   }
  
@@ -24,13 +23,36 @@
     font-size: 80%;
 
   }
-
-  .lightbox-info-inner {
+ 
+ .lightbox-info-inner {
     background-color: rgba(255, 255, 255, 0.8);
     display: inline-block;
     padding: 2rem;
     border-radius: 0.75rem;
   }
+
+ @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .lightbox {
+    display: table-column-group;   
+    column-gap: 2rem;    
+  }
+
+ .lightbox img {
+    margin: 1rem;
+    width: 90%;
+  }
+
+.lightbox-info-inner {
+   padding: 0.5rem;
+   font-size: 70%;
+
+  }
+
+}
+
+
+  
 </style>
 
 
