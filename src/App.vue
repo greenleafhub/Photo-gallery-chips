@@ -3,15 +3,15 @@
 </template>
 
 <style>
-  @import url('https://fonts.googleapis.com/css?family=Roboto');
+  @import url('https://fonts.googleapis.com/css?family=Cabin');
 
   html { font-size: 22px; }
-  body { font-family: 'Roboto', sans-serif; }
+  body { font-family: 'Cabin', sans-serif; }
 
   a {
-    color: #0094FF;
+    color: #3aad8b;
     text-decoration: none;
   }
 
-  a:hover { color: #0074C6; }
+  a:hover { color: #75f7d0; }
 </style>

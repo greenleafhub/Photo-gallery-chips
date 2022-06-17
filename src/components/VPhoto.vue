@@ -45,7 +45,7 @@
 
 .lightbox-info-inner {
    padding: 0.5rem;
-   font-size: 70%;
+   font-size: 90%;
 
   }
 
