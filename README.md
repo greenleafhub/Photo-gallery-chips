@@ -1,7 +1,5 @@
 # Chips photo gallery
-A photo gallery for all the chips I reviewed on in the past few years! Click on the photos to read the reviews.
-
-Functions to be added: fliter chips by tags, search by name
+A photo gallery for all the chips I reviewed on in the past few years! Click on the photos to read the reviews, and search specific chips by tags!
 
 ## Project setup
 ```
